@@ -1,0 +1,73 @@
+.u-image-logo{
+  width: 50px!important;
+  height: 50px!important;
+  border-radius: 100px;
+  overflow: hidden;
+}
+.u-container-layout{
+  text-align: center!important;
+  
+}
+.u-image a {
+  height: 100%!important;
+  width: 100%!important;
+  color: aliceblue!important;
+  font-weight: 700;
+  border: 3px solid rgba(171, 255, 60, 0.89);
+  padding: 12px 20px;
+  background-color: black;
+  box-shadow: 2px 2px 5px rgb(255, 255, 255)!important;
+
+}
+.u-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.u-section-1{
+  background-color: blanchedalmond!important;
+}
+.u-border-no-bottom{
+  background-color: darkgrey;
+}
+.u-image{
+  box-shadow: 2px 2px 5px gray!important;
+}
+
+p a{
+  color: white!important;
+}
+p a:hover{
+  color: rgb(112, 231, 136)!important;
+}
+
+.change{
+  flex-direction: row-reverse;
+}
+
+
+@media (max-width: 1008px) {
+
+.u-svg-link{
+  margin-top: -8px;
+}
+
+}
+/* @media (min-width: 464px) {
+
+  .u-height{
+    height: 566px!important;
+  }
+
+} */
+@media (min-width: 1199px) {
+
+.u-logo{
+  margin-left: 60px!important;
+}
+.u-nav{
+  margin-right: -20px;
+}
+
+}
